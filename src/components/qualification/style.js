@@ -14,7 +14,7 @@ export const ContainerQuali = styled.div`
         justify-content: center;
         align-items: center;
         font-size: 48px;
-        color: #FF1493;
+        color: #000000;
         letter-spacing: 4px;
         text-shadow: 4px 4px 8px black;
         margin-bottom: 32px;
@@ -22,15 +22,20 @@ export const ContainerQuali = styled.div`
 `;
 
 export const CertificadoContainer = styled.div`
-    border-radius: 16px;
-    background-color: #FF1493;
-    border-top: 8px solid #FF1493;
-    border-bottom: 5px solid #FF1493;
-    border-left: 8px solid #FF1493;
-    border-right: 8px solid #FF1493;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    border-radius: 16px;  
+
+    div {
+        border-top: 8px solid #FFC0CB;
+    border-bottom: 5px solid #FFC0CB;
+    border-left: 8px solid #FFC0CB;
+    border-right: 8px solid #FFC0CB;
     margin-top: 16px;
     margin-left: 48px;
     box-shadow: 4px 4px 8px black;
+    }
 
     img {
         height: 550px;

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import wallpaper from "../assets/wallpaper1.jpg";
+import wallpaper from "../assets/bg.png";
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
-        color: #FFF0F5;
+        color: #FFFAFA;
     }
 
     ol, ul {

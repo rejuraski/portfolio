@@ -1,10 +1,10 @@
+import myPhoto from "../../assets/rejuraski.jpeg";
 import {
   ContainerAbout,
   ContentAbout,
-  MyPhotoImg,
   MyPhotoContainer,
+  MyPhotoImg,
 } from "./style";
-import myPhoto from "../../assets/rejuraski.jpeg";
 
 const About = () => {
   return (
@@ -12,15 +12,15 @@ const About = () => {
       <h1>Sobre mim</h1>
       <ContentAbout>
         <p>
-          Sou formada em Administração pelo Centro Universitário Univel, porém
-          sempre tive o fascínio pela área de tecnologia. Na pandemia, me veio a
+          Administradora e Desenvolvedora Full stack, com uma paixão imensa pela
+          tecnologia. Formada em Administração pelo Centro Universitário Univel,
+          sempre tive o fascínio pela área de tecnologia. Na pandemia, houve a
           oportunidade de fazer uma mudança radical de carreira, e dessa vez pra
           minha tão sonhada área de desenvolvimento. Decidi que essa era a minha
           hora de lutar para trabalhar com o que eu sempre quis e aqui estou,
-          desenvolvedora front-end, em aprendizado de back-end e futura
-          full-stack. Tenho como prioridade estudar e evoluir cada vez mais na
-          área para que eu consiga ter oportunidades na minha carreira como
-          desenvolvedora.
+          desenvolvedora full stack e apaixonada pelo front end. Tenho como
+          prioridade estudar e evoluir cada vez mais na área para que eu consiga
+          ter oportunidades na minha carreira como desenvolvedora.
         </p>
         <MyPhotoContainer>
           <MyPhotoImg src={myPhoto} alt="Minha foto"></MyPhotoImg>

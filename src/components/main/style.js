@@ -5,7 +5,7 @@ export const ContainerMain = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #FFF0F5;
+    color: #000000;
     min-height: 100vh;
 
     h1 {
@@ -16,7 +16,7 @@ export const ContainerMain = styled.main`
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-        background-image: linear-gradient(white, pink);
+        background-image: linear-gradient(black, grey);
     }
 
     h2 {
@@ -25,7 +25,7 @@ export const ContainerMain = styled.main`
         margin-top: 32px;
         align-items: center;
         justify-content: center;
-        color: #FFF0F5;
+        color: #000000;
         text-align: center;
         max-width: 1000px;
     }

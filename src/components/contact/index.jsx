@@ -9,11 +9,17 @@ const Contact = () => {
       <h1>Contato</h1>
       <div>
         <img src={github} alt="github" />
-        <a href="https://github.com/rejuraski">rejuraski</a>
+        <a href="https://github.com/rejuraski" target="_blank" rel="noreferrer">
+          rejuraski
+        </a>
       </div>
       <div>
         <img src={linkedin} alt="linkedin" />
-        <a href="https://www.linkedin.com/in/renata-pereira-juraski-149696158/">
+        <a
+          href="https://www.linkedin.com/in/renata-pereira-juraski-149696158/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Renata Pereira Juraski
         </a>
       </div>

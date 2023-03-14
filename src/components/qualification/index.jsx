@@ -1,4 +1,5 @@
-import certificado from "../../assets/certificado.png";
+import frontend from "../../assets/certificado.png";
+import fullstack from "../../assets/fullstack.png";
 import { CertificadoContainer, ContainerQuali } from "./style";
 
 const Qualification = () => {
@@ -6,7 +7,12 @@ const Qualification = () => {
     <ContainerQuali id="qualification">
       <h1>Qualificação</h1>
       <CertificadoContainer>
-        <img src={certificado} alt="certificado" />
+        <div>
+          <img src={frontend} alt="certificado" />
+        </div>
+        <div>
+          <img src={fullstack} alt="certificado" />
+        </div>
       </CertificadoContainer>
     </ContainerQuali>
   );

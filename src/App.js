@@ -5,7 +5,7 @@ import Header from './components/header/header';
 import Main from './components/main';
 import Projects from './components/projects';
 import Qualification from './components/qualification';
-import Teclonogies from './components/tecnologies';
+import Tecnologies from './components/tecnologies';
 import GlobalStyle from './styles/global';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Main />
       <About />
       <Projects />
-      <Teclonogies />
+      <Tecnologies />
       <Qualification />
       <Contact />
       <GlobalStyle />

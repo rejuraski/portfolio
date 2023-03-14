@@ -1,32 +1,41 @@
-import { Container, Content, LogoContent } from "./style";
 import logo from "../../assets/logo.png";
+import { Container, Content, LogoContent } from "./style";
 
 const Header = () => {
   return (
     <Container>
       <Content>
         <LogoContent>
-          <h1>
-            Re<strong>Juraski</strong>
-          </h1>
-          <img src={logo} alt="Dinossauro" />
+          <a href="#top">
+            <img src={logo} alt="Dinossauro" />
+          </a>
         </LogoContent>
         <div>
           <ul>
             <li>
-              <a href="#about">Sobre mim</a>
+              <a href="#about">
+                <span>Sobre mim</span>
+              </a>
             </li>
             <li>
-              <a href="#projects">Projetos</a>
+              <a href="#projects">
+                <span>Projetos</span>
+              </a>
             </li>
             <li>
-              <a href="#tech">Tecnologias</a>
+              <a href="#tech">
+                <span>Tecnologias</span>
+              </a>
             </li>
             <li>
-              <a href="#qualification">Qualificação</a>
+              <a href="#qualification">
+                <span>Qualificação</span>
+              </a>
             </li>
             <li>
-              <a href="#contact">Contato</a>
+              <a href="#contact">
+                <span>Contato</span>
+              </a>
             </li>
           </ul>
         </div>
